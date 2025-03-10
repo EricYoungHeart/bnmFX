@@ -9,6 +9,7 @@ module ru.petsinbloom.demofx {
     requires net.synedra.validatorfx;
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
+    requires java.sql;
 
     opens ru.petsinbloom.demofx to javafx.fxml;
     exports ru.petsinbloom.demofx;
